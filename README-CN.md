@@ -1,5 +1,3 @@
-# README-CN
-
 #GoogleClock
 
 对于Google I/O2016上那个炫酷的时钟的模拟。
