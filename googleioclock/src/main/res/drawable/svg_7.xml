@@ -19,14 +19,14 @@
         android:strokeWidth="?attr/lyThickness" />
     <path
         android:pathData="@string/path_data_7"
-        android:strokeColor="?attr/lyColor1"
+        android:strokeColor="?attr/lyColor2"
         android:trimPathStart="0.5"
         android:name="seven2"
         android:trimPathEnd="0.75"
         android:strokeWidth="?attr/lyThickness" />
     <path
         android:pathData="@string/path_data_7"
-        android:strokeColor="?attr/lyColor1"
+        android:strokeColor="?attr/lyColor3"
         android:trimPathStart="0.75"
         android:name="seven3"
         android:trimPathEnd="1"

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/svg_colon">
+    <!--In fact , no animation should be here , but this file is a must-->
+    <target
+        android:name="colon"
+        android:animation="@animator/anim_line"/>
+</animated-vector>

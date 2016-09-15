@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="lyThickness_4">4</integer>
+    <integer name="lyThickness_4">8</integer>
     <integer name="lyThickness_1">1</integer>
+    <!--<integer name="lyDuration_4000">4000</integer>
+    <integer name="lyDuration_500">500</integer>-->
 </resources>

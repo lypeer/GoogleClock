@@ -1,6 +1,6 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -11,6 +11,8 @@
         <item name="lyColor0">#000000</item>
         <item name="lyColor1">#000000</item>
         <item name="lyColor2">#000000</item>
-        <item name="lyColor3">#000000</item>
+        <item name="lyColorColon">#000000</item>
+        <item name="lyThickness">20</item>
+        <item name="lyColonThickness">1</item>
     </style>
 </resources>

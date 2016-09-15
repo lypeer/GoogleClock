@@ -19,5 +19,7 @@
         <!--todo In fact , thickness should be a float value , but Android don't allow us to define float in xml .-->
         <attr name="lyThickness" format="integer"/>
         <attr name="lyColonThickness" format="integer"/>
+        <!-- <attr name="lyTransformDuration" format="integer"/>
+         <attr name="lyLineDuration" format="integer"/>-->
     </declare-styleable>
 </resources>

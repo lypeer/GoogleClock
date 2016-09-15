@@ -1,7 +1,10 @@
 package com.lypeer.googleioclock.service;
 
 import android.app.Service;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 
@@ -39,6 +42,14 @@ public class LyClockService extends Service {
     @Override
     public IBinder onBind(Intent intent) {
         return null;
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(Intent.ACTION_SCREEN_ON);
+        registerReceiver(mReceiver , filter);
     }
 
     @Override
@@ -135,11 +146,20 @@ public class LyClockService extends Service {
         mSecTenDigits = seconds / 10;
     }
 
+    // Monitoring the screen on to reset time
+    private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            initTime();
+        }
+    };
+
     @Override
     public void onDestroy() {
         super.onDestroy();
         if (mTimer != null) {
             mTimer.cancel();
         }
+        unregisterReceiver(mReceiver);
     }
 }

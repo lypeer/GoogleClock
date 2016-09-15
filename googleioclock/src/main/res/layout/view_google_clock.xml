@@ -15,7 +15,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:contentDescription="@string/cd_iv_hour_ten_digits"
-            android:src="@drawable/svg_0"/>
+            android:src="@drawable/svg_1"/>
 
         <View
             android:id="@+id/view_divider_horizontal_0"
@@ -59,7 +59,7 @@
     <View
         android:layout_width="match_parent"
         android:id="@+id/view_divider_vertical"
-        android:layout_height="4dp"/>
+        android:layout_height="16dp"/>
 
     <LinearLayout
         android:layout_width="wrap_content"

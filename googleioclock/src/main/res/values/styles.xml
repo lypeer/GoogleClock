@@ -9,5 +9,7 @@
         <item name="lyColorColon">@color/colorDarkBlue</item>
         <item name="lyThickness">@integer/lyThickness_4</item>
         <item name="lyColonThickness">@integer/lyThickness_1</item>
+       <!-- <item name="lyTransformDuration">@integer/lyDuration_500</item>
+        <item name="lyLineDuration">@integer/lyDuration_4000</item>-->
     </style>
 </resources>

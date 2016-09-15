@@ -8,6 +8,7 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.DimenRes;
 import android.support.annotation.StyleRes;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.view.ViewGroup;
@@ -211,7 +212,7 @@ public class GoogleClock extends LinearLayout {
             updateImageView(mIvSecSingleDigits, mResList.get(event.getSecSingleDigits()));
             mSecSingleDigits = event.getSecSingleDigits();
         }
-        updateImageView(mIvColon, R.drawable.svg_colon);
+        updateImageView(mIvColon, R.drawable.animated_colon);
     }
 
     /**
@@ -229,19 +230,33 @@ public class GoogleClock extends LinearLayout {
         }
         Drawable drawable = mContext.getDrawable(animTo);
         if (drawable == null) {
+            Log.e(mContext.getPackageCodePath(), "ResId is wrong .");
             return;
         }
 
-        drawable.canApplyTheme();
-        drawable.applyTheme(wrapper.getTheme());
         target.setImageDrawable(drawable);
+        drawable.applyTheme(wrapper.getTheme());
 
         if (drawable instanceof AnimatedVectorDrawable) {
             final AnimatedVectorDrawable animatedVectorDrawable = (AnimatedVectorDrawable) drawable;
 
+            if (mHourTenDigits != -1 &&
+                    mHourSingleDigits != -1 &&
+                    mMinTenDigits != -1 &&
+                    mMinSingleDigits != -1 &&
+                    mSecTenDigits != -1) {
+                animatedVectorDrawable.start();
+                return;
+            }
             //todo there exists a bug in XiaoMi phone : when the time is 00:00 ,
             //todo 11:11, 22:22(there are some same numbers) , only the first can work correctly
-            animatedVectorDrawable.start();
+            //todo So I do this to avoid that . But this way is so fool .
+            target.post(new Runnable() {
+                @Override
+                public void run() {
+                    animatedVectorDrawable.start();
+                }
+            });
         }
     }
 
