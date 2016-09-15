@@ -5,7 +5,7 @@
 
 ##show
 
-![GoogleClock](http://ac-cnyv47la.clouddn.com/a555468d35913de7.gif)
+![GoogleClock](http://ac-cnyv47la.clouddn.com/ac980baf7fcca42e.gif)
 
 ##Installation
 
