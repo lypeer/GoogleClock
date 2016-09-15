@@ -6,6 +6,7 @@
 ##show
 
 ![GoogleClock](http://ac-cnyv47la.clouddn.com/ac980baf7fcca42e.gif)
+好像有的时候github 的图床会出问题。。。如果不能正常的看到图片的话可以戳一下：**[这里](http://ac-cnyv47la.clouddn.com/ac980baf7fcca42e.gif)**
 
 ##Installation
 
