@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/svg_1">
+    <target
+        android:name="one0"
+        android:animation="@animator/anim_1_to_2"/>
+    <target
+        android:name="one0"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="one1"
+        android:animation="@animator/anim_1_to_2"/>
+    <target
+        android:name="one1"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="one2"
+        android:animation="@animator/anim_1_to_2"/>
+    <target
+        android:name="one2"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="one3"
+        android:animation="@animator/anim_1_to_2"/>
+    <target
+        android:name="one3"
+        android:animation="@animator/anim_line"/>
+</animated-vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LyGoogleClock">
+        <attr name="lyClockWidth" format="dimension"/>
+        <attr name="lyHourWidth" format="dimension"/>
+        <attr name="lyMinWidth" format="dimension"/>
+        <attr name="lySecWidth" format="dimension"/>
+        <attr name="lyDividerHorizontal" format="dimension"/>
+        <attr name="lyDividerVertical" format="dimension"/>
+        <attr name="lyTheme" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="LyVectorColor">
+        <attr name="lyColor0" format="color"/>
+        <attr name="lyColor1" format="color"/>
+        <attr name="lyColor2" format="color"/>
+        <attr name="lyColor3" format="color"/>
+        <attr name="lyColorColon" format="color"/>
+        <!--todo In fact , thickness should be a float value , but Android don't allow us to define float in xml .-->
+        <attr name="lyThickness" format="integer"/>
+        <attr name="lyColonThickness" format="integer"/>
+    </declare-styleable>
+</resources>

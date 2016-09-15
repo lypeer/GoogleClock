@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/svg_5">
+    <target
+        android:name="five0"
+        android:animation="@animator/anim_5_to_6"/>
+    <target
+        android:name="five0"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="five1"
+        android:animation="@animator/anim_5_to_6"/>
+    <target
+        android:name="five1"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="five2"
+        android:animation="@animator/anim_5_to_6"/>
+    <target
+        android:name="five2"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="five3"
+        android:animation="@animator/anim_5_to_6"/>
+    <target
+        android:name="five3"
+        android:animation="@animator/anim_line"/>
+</animated-vector>

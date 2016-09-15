@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/svg_4">
+    <target
+        android:name="four0"
+        android:animation="@animator/anim_4_to_5"/>
+    <target
+        android:name="four0"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="four1"
+        android:animation="@animator/anim_4_to_5"/>
+    <target
+        android:name="four1"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="four2"
+        android:animation="@animator/anim_4_to_5"/>
+    <target
+        android:name="four2"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="four3"
+        android:animation="@animator/anim_4_to_5"/>
+    <target
+        android:name="four3"
+        android:animation="@animator/anim_line"/>
+</animated-vector>

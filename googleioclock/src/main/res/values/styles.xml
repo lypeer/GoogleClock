@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="lyColor0">@color/colorRed</item>
+        <item name="lyColor1">@color/colorYellow</item>
+        <item name="lyColor2">@color/colorGreen</item>
+        <item name="lyColor3">@color/colorBlue</item>
+        <item name="lyColorColon">@color/colorDarkBlue</item>
+        <item name="lyThickness">@integer/lyThickness_4</item>
+        <item name="lyColonThickness">@integer/lyThickness_1</item>
+    </style>
+</resources>

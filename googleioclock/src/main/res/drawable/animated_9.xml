@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/svg_9">
+    <target
+        android:name="nine0"
+        android:animation="@animator/anim_9_to_0"/>
+    <target
+        android:name="nine0"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="nine1"
+        android:animation="@animator/anim_9_to_0"/>
+    <target
+        android:name="nine1"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="nine2"
+        android:animation="@animator/anim_9_to_0"/>
+    <target
+        android:name="nine2"
+        android:animation="@animator/anim_line"/>
+    <target
+        android:name="nine3"
+        android:animation="@animator/anim_9_to_0"/>
+    <target
+        android:name="nine3"
+        android:animation="@animator/anim_line"/>
+</animated-vector>
