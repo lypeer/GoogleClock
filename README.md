@@ -6,6 +6,8 @@ Almost all of the animations and images in it are made by the SVG , so this libr
 ##show
 
 ![GoogleClock](http://ac-cnyv47la.clouddn.com/ac980baf7fcca42e.gif)
+My God ! Why it doesn't appear ... 
+if you can't find the gif , visit **[here](http://ac-cnyv47la.clouddn.com/ac980baf7fcca42e.gif)**
 
 ##Installation
 You can install GoogleClock by adding the following dependency to your build.gradle:
