@@ -1,7 +1,7 @@
 #GoogleClock
 
 An imitation of the clock in Google I/O 2016 . 
-Almost all of the animations and images in it are made by the SVG , so this library may be a wonderful material to learn the SVG's usage in Android . Chinese ERADME is **[here](https://github.com/lypeer/GoogleClock/blob/master/README-CN.md)** .
+Almost all of the animations and images in it are made by the SVG , so this library may be a wonderful material to learn the SVG's usage in Android . Chinese README is **[here](https://github.com/lypeer/GoogleClock/blob/master/README-CN.md)** .
 
 ##show
 
